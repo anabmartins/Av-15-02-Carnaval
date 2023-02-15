@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carnaval 2023</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <img src="mascara-de-carnaval.png" alt="carnaval">
+    <h1>Carnaval 2023</h1>
+    <nav aria-label="primária">
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="calculadora.html">Calculadora</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+      </ul>
+    </nav>
+  </header>
+  <article class="conteudo-2">
+
+    <div class="introducao">
+      <h1>Calcule <span style="color: #ee116d;">juros compostos </span>nesse Carnaval e fique longe de golpes na hora de
+        fazer uma compra!</h1>
+
+      <div class="calc">
+        <div class="input-group mb-3">
+          <p>Valor inicial</p>
+          <span class="input-group-text">R$</span>
+          <input id="v-inicial" type="number" class="form-control" placeholder="0,00">
+        </div>
+        <div class="input-group mb-3">
+          <p>Taxa de juros</p>
+          <span class="input-group-text">%</span>
+          <input id="taxa" type="number" class="form-control" placeholder="0,00">
+        </div>
+        <div class="input-group mb-3">
+          <p>Período em</p>
+          <input id="periodo" type="number" class="form-control" placeholder="meses">
+        </div>
+        <div class="input-group mb-3">
+          <p>Valor final</p>
+          <span class="input-group-text">R$</span>
+          <input id="v-final" type="number" readonly class="form-control" placeholder="0,00">
+        </div>
+      </div>
+      <div class="c">
+        <a href="" onclick="calcular()">calcular</a>
+      </div>
+    </div>
+
+  </article>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
