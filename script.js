@@ -9,5 +9,5 @@ function calcular() {
 
     var montante = p * Math.pow((1 + taxa), t)
     var tot = montante.toString();
-    $('#v-final').val(tot)
+    a.innerHTML = tot
 }
